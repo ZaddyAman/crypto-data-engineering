@@ -42,8 +42,8 @@ with st.sidebar:
 # 🔧 Database Connection
 # ---------------------
 user = "postgres"
-password = quote_plus("Aman@2003")  # <-- Replace with your password
-host = "13.203.79.75"
+password = quote_plus("🤪🤪🤪🤪🤪")  # <-- Replace with your password
+host = "👌👌👌👌👌"
 port = "5432"
 database = "crypto"
 
