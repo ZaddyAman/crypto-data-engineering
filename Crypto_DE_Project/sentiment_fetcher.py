@@ -6,8 +6,8 @@ from urllib.parse import quote_plus
 
 # 🔧 PostgreSQL Config
 user = "postgres"
-password = quote_plus("Aman@2003")
-host = "13.203.79.75"
+password = quote_plus("🤪🤪🤪🤪🤪")
+host = "👌👌👌👌👌"
 port = "5432"
 db = "crypto"
 
