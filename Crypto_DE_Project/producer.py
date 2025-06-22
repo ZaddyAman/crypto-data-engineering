@@ -6,7 +6,7 @@ from time import sleep
 
 # Kafka producer config
 producer = KafkaProducer(
-    bootstrap_servers=['13.203.79.75:9092'],
+    bootstrap_servers=['😁😁😁😁😁:9092'],
     value_serializer=lambda x: json.dumps(x).encode('utf-8'),
     key_serializer=lambda k: k.encode('utf-8')
 )
