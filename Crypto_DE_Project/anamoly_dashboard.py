@@ -9,17 +9,17 @@ import urllib.parse
 # 🔧 Database Configuration
 # -------------------------
 DB_USER = "postgres"
-DB_PASS = urllib.parse.quote_plus("Aman@2003")
-DB_HOST = "13.203.79.75"
+DB_PASS = urllib.parse.quote_plus("🤪🤪🤪🤪🤪🤪🤪🤪")
+DB_HOST = "🤣🤣🤣🤣🤣"
 DB_PORT = "5432"
-DB_NAME = "crypto"
+DB_NAME = "😒😒😒😒😒"
 SCHEMA = "anomaly"
 META_SCHEMA = "bronze_crypto"
 
 # -------------------------
 # ✅ Use Only These 5 Valid Coins
 # -------------------------
-COINS = ["bitcoin", "ethereum", "tether", "bnb", "solana"]
+COINS = ["bitcoin", "ethereum", "tether", "xrp", "solana"]
 
 # -------------------------
 # 🖼 Load Logos for These Coins Only
