@@ -1,0 +1,41 @@
+Title: Bitcoin price holds above $102,000 as BlackRock leads fund inflows
+Description: Bitcoin traded relatively flat on Thursday as institutional investors resumed allocations into US-based spot bitcoin exchange-traded funds on Wednesday.
+Sentiment: negative (Polarity: -0.025)
+
+Title: Bitcoin Shatters $110,000, XRP, Dogecoin, Ethereum Surge: 'Bulls Emerge Victorious,' Trader Concludes
+Description: No description
+Sentiment: neutral (Polarity: 0.0)
+
+Title: Profit-Taking Continues in Crypto Market as Dogecoin, Cardano's ADA Lead Majors Slide
+Description: Profit-taking continued to weigh down crypto markets Thursday as Dogecoin DOGE and Cardano’s ADA ADA led declines among major tokens, with bitcoin BTC little-changed over the past 24 hours.
+XRP XRP, Solana’s SOL SOL and BNB Chain’s BNB BNB shed 1.5%, while Tr…
+Sentiment: negative (Polarity: -0.11435185185185186)
+
+Title: Trump’s media company says it’s buying $2.5 billion in Bitcoin
+Description: President Donald Trump’s media company could soon own $2.5 billion in Bitcoin. On Tuesday, Trump Media announced that it’s working with “approximately 50 institutional investors” to sell and issue $1.5 billion in stock and $1 billion in convertible notes. The…
+Sentiment: positive (Polarity: 0.09999999999999998)
+
+Title: Bitcoin, Ethereum, Dogecoin Climb Ahead Of Weekend — XRP Lags Behind
+Description: No description
+Sentiment: neutral (Polarity: 0.0)
+
+Title: Wall Street's New Bitcoin Monster: Cantor's $4B Bet Could Dethrone Michael Saylor
+Description: Backed by Tether and SoftBank, Twenty One Capital is coming for Strategy's crypto crown -- and it's not playing small.
+Sentiment: negative (Polarity: -0.25)
+
+Title: Dogecoin, Cardano’s ADA, XRP Fall 7% in Weekend Bloodbath
+Description: Market capitalization slumped 5% as traders took profits on the week-long rally ahead of the weekend.
+Sentiment: neutral (Polarity: 0.0)
+
+Title: AI could consume more power than Bitcoin by the end of 2025
+Description: AI could soon surpass Bitcoin mining in energy consumption, according to a new analysis that concludes artificial intelligence could use close to half of all the electricity consumed by data centers globally by the end of 2025. The estimates come from Alex de…
+Sentiment: negative (Polarity: -0.15757575757575756)
+
+Title: XRP-BTC Pair Flashes First Golden Cross, Hinting at Major Bull Run for XRP
+Description: No description
+Sentiment: neutral (Polarity: 0.0)
+
+Title: XRP Could Rocket to $8 as Focus Shifts to Crypto Majors After Bitcoin's Record Run: Traders
+Description: Traders are rotating into major altcoins like XRP and Solana’s SOL as bitcoin consolidates near its record highs.
+Sentiment: positive (Polarity: 0.08125)
+
