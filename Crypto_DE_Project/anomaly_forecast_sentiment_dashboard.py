@@ -10,8 +10,8 @@ import plotly.graph_objects as go
 # 🔧 Database Configuration
 # -------------------------
 DB_USER = "postgres"
-DB_PASS = urllib.parse.quote_plus("Aman@2003")
-DB_HOST = "13.203.79.75"
+DB_PASS = urllib.parse.quote_plus("🤪🤪🤪🤪🤪🤪")
+DB_HOST = "🤪🤪🤪🤪🤪🤪"
 DB_PORT = "5432"
 DB_NAME = "crypto"
 ANOMALY_SCHEMA = "anomaly"
