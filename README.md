@@ -14,9 +14,10 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
 ---
 
 ## 🏗️ Architecture
-[U<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+
+[Uploa<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="AFdcOUHKqkFq2DwqemjB">
-    <mxGraphModel dx="3271" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
+    <mxGraphModel dx="2906" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,17 +45,16 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-12" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api;shadow=1;gradientColor=default;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="-30" y="305.02" width="120" height="115.2" as="geometry" />
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;flowAnimation=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-30" target="2BDDP4E5-lP9xPs0Tv10-49">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;flowAnimation=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="846.6666666666665" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-30" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="90" width="690" height="570" as="geometry" />
         </mxCell>
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-31" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;shadow=1;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
           <mxGeometry x="630" y="10" width="40" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-9" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Arc_PostgreSQL.svg;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
-          <mxGeometry x="280" y="430" width="114.84" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-10" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.spark_data_insights;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
           <mxGeometry x="80" y="150" width="92.21" height="100" as="geometry" />
@@ -80,25 +80,29 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-42" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.spark_data_insights;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
           <mxGeometry x="500" y="150" width="92.21" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-10" target="2BDDP4E5-lP9xPs0Tv10-9">
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-10">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.3445200000001" y="487.24" as="targetPoint" />
             <Array as="points">
               <mxPoint x="126" y="487" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.489;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-9" target="2BDDP4E5-lP9xPs0Tv10-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-9">
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.489;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" target="2BDDP4E5-lP9xPs0Tv10-41">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337.3333333333335" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.84000000000015" y="490" as="sourcePoint" />
             <mxPoint x="549" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.977;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.971;exitY=0.684;exitDx=0;exitDy=0;exitPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-42" target="2BDDP4E5-lP9xPs0Tv10-9">
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.977;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.971;exitY=0.684;exitDx=0;exitDy=0;exitPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="2BDDP4E5-lP9xPs0Tv10-30" source="2BDDP4E5-lP9xPs0Tv10-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="804.6800000000001" y="210" as="sourcePoint" />
-            <mxPoint x="609.9956399999999" y="512.6400000000001" as="targetPoint" />
+            <mxPoint x="392.19867999999997" y="527.8" as="targetPoint" />
             <Array as="points">
               <mxPoint x="610" y="218" />
               <mxPoint x="610" y="528" />
@@ -120,6 +124,9 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-73" value="Postgres" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;glass=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
           <mxGeometry x="302.42" y="400" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-80" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="2BDDP4E5-lP9xPs0Tv10-30">
+          <mxGeometry x="293.53" y="430" width="90" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-12" target="2BDDP4E5-lP9xPs0Tv10-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -128,17 +135,15 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-49" target="2BDDP4E5-lP9xPs0Tv10-70">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2BDDP4E5-lP9xPs0Tv10-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="846.6666666666665" y="830" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-49" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Dashboard2.svg;" vertex="1" parent="1">
-          <mxGeometry x="790" y="750" width="113.34" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-52" target="2BDDP4E5-lP9xPs0Tv10-72">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-52" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_Monitor_Dashboard.svg;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="750" width="100.76" height="93.64" as="geometry" />
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2BDDP4E5-lP9xPs0Tv10-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330.333333333334" y="843.6399999999999" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-66" value="Coingecko API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;glass=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-20" y="270" width="100" height="30" as="geometry" />
@@ -149,14 +154,22 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
         <mxCell id="2BDDP4E5-lP9xPs0Tv10-72" value="Streamlit Dashboard (KPIs,Anomalies,Sentiment)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;glass=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1185.38" y="880" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2BDDP4E5-lP9xPs0Tv10-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.638;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-30" target="2BDDP4E5-lP9xPs0Tv10-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.638;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;flowAnimation=1;" edge="1" parent="1" source="2BDDP4E5-lP9xPs0Tv10-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1344.2848800000002" y="753.37104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-81" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.opensearch_dashboards;" vertex="1" parent="1">
+          <mxGeometry x="793.7900000000001" y="750" width="105.76" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2BDDP4E5-lP9xPs0Tv10-82" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Intune_Trends.svg;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="760" width="56.8" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
-ploading Untitled Diagram.drawio…]()
+ding sdfgbvn.drawio…]()
 
 
 
