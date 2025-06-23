@@ -179,7 +179,7 @@ rawio…]()
 | **ML Models**   | Isolation Forest, Prophet (Forecasting), LOF (Planned) |
 | **Scheduler**   | Apache Airflow                                         |
 | **Dashboard**   | Dash (Plotly), Streamlit                               |
-| **Infra**       | AWS EC2, Docker (Planned), systemd                     |
+| **Infra**       | AWS EC2, systemd                     |
 
 ---
 
@@ -248,37 +248,4 @@ rawio…]()
 
 ---
 
-## 🛠️ Setup Instructions
 
-### 1. Clone and Create Virtual Env
-
-```bash
-git clone https://github.com/your-username/crypto-analytics-platform.git
-cd crypto-analytics-platform
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-
-2. Set Up PostgreSQL
-Create DB crypto and schemas:
-
-bronze_crypto
-
-silver_crypto
-
-anomaly
-
-sentiment_crypto
-
-3. Start Kafka, Spark, and Run Producers
-
-# Start Kafka
-bin/zookeeper-server-start.sh config/zookeeper.properties
-bin/kafka-server-start.sh config/server.properties
-
-# Start producer
-python kafka_producer/producer.py
-
-# Submit Spark ETL
-spark-submit bronze_etl_job/spark_bronze_etl.py
