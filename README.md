@@ -14,6 +14,7 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
 ---
 
 ## 🏗️ Architecture
+![image](https://github.com/user-attachments/assets/d3e72cbc-a1ad-430c-9f78-81f18c2efbcd)
 
 
 
