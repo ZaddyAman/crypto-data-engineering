@@ -14,8 +14,7 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
 ---
 
 ## 🏗️ Architecture
-
-[Uploading crypto.d<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+[U<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="AFdcOUHKqkFq2DwqemjB">
     <mxGraphModel dx="3271" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="1">
       <root>
@@ -157,8 +156,7 @@ This project ingests **live cryptocurrency data** from [CoinGecko](https://coing
     </mxGraphModel>
   </diagram>
 </mxfile>
-rawio…]()
-
+ploading Untitled Diagram.drawio…]()
 
 
 
